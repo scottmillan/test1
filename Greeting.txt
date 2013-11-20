@@ -1,0 +1,18 @@
+Java:
+
+public class HelloLovelyWorld 
+{ 
+ public static void main (String[] args) 
+ { 
+ System.out.println("Hello "+args[0]+" World"); 
+ } 
+} 
+
+Haskell:
+
+bootupMessage :: String -> String
+bootupMessage firstName = 
+ greet firstName ++ “ and ” ++ welcomeMsg
+ where 
+ greet name = “Hello “ ++ name
+ welcomeMsg = “welcome to Aberystwyth”
